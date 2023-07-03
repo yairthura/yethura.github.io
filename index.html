@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Website</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+
+<body class="" style="background-color: cornflowerblue;">
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm text-danger sticky-top ">
+        <div class="container">
+            <a class="navbar-brand text-danger" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--nav bar-->
+
+    <!--home start-->
+    <div class="home mx-5 mb-5" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-50 align-items-center ">
+                <div class="col-md-6 mt-5 ">
+                    <div class="text-center"><img src="picture.jpg" class="rounded-circle shadow-sm" alt="" width="300"
+                            height="300">
+
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 order-md-first ">
+                    <div class="my-plofile">
+                        <p class="text-muted mb-1">Hello I'm </p>
+                        <h1 class=" text-danger text-uppercase fs-1 fw-bold ">Full-stack Developer</h1>
+                        <h2 class="fs-4">Ye Thura</h2>
+                        <p class=" mt-4 text-dark">
+                            I graduated from computer university.I am constantly learning and looking for a remote or
+                            insite job opening position. So,if you required a Full-stack developer for your
+                            project,please contact me. I would be delighted to assist you since it would allow me to
+                            improve my skills and knowledge.
+                        </p>
+                        <a class="btn content-download button-main button-scheme bg-danger" href="2023CV.pdf"
+                            download="cv">Download CV</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark mb-5" style="height: 2px;"></div>
+    <!-- home end-->
+
+    <!-- skill section open  -->
+
+    <div class="skill mx-5" id="about">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center fw-bold mb-4">
+                        <h2>Experties</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <h4>HTML</h4>
+                        <div class="progress bg-danger" style="height: 5px;width: 60%">
+                            <div class="progress-bar " role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <h4>CSS & Bootstrap</h4>
+                        <div class="progress bg-success" style="height: 5px;width: 50%">
+                        </div>
+                    </div>
+
+
+                    <div class="skill mb-4">
+                        <h4>Javascript</h4>
+                        <div class="progress bg-danger" style="height: 5px;width: 40%">
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <h4>PHP</h4>
+                        <div class="progress bg-warning" style="height: 5px;width: 44%">
+
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <h4>Laravel</h4>
+                        <div class="progress bg-warning" style="height: 5px;width: 49%">
+
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <h4>MySql</h4>
+                        <div class="progress bg-info" style="height: 5px;width: 50%">
+
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- skill section close  -->
+
+    <!-- what can i do  -->
+    <div class="projects mx-5" id="projects">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center fw-bold mb-4">
+                        <h2>What I can do</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- can  -->
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="project-item bg-white p-4 shadow-sm rounded">
+                        <div class="icon">
+                            <i class="fa-solid fa-code fs-2 text-danger my-3"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Web Development</h3>
+                        <p class=" text-muted"></p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="project-item bg-white p-4 shadow-sm rounded">
+                        <div class="icon">
+                            <i class="fa-solid fa-lightbulb fs-2 text-danger my-3"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Creative Idea</h3>
+                        <p class=" text-muted"></p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-item bg-white p-4 shadow-sm rounded">
+                        <div class="icon">
+                            <i class="fa-solid fa-image fs-2 text-danger my-3"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Photoshop</h3>
+                        <p class=" text-muted"></p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- can end  -->
+        </div>
+    </div>
+    <!-- what can i do end -->
+
+    <!-- last work start  -->
+
+    <div class="portfol mx-5 mt-5" id="portfolio">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center fw-bold mb-4">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="items">
+                        <div style="height: 200px;">
+                            <img src="foodsys.jpg" alt="" class="h-100 w-100 img-thumbnail shadow-sm">
+
+                        </div>
+                        <h3 class="fs-5 my-2">Food Order System</h3>
+                        <div class="row ">
+                            <div class="col-4">
+                                <div class="btn btn-secondary">
+                                    <a href="#" class=" text-decoration-none text-white ">Live Demo</a>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="btn btn-secondary">
+                                    <a href="https://github.com/yairthura/food_order_system"
+                                        class=" text-decoration-none text-white ">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="items">
+                        <img src="db.png" alt="" class="w-100 img-thumbnail shadow-sm">
+                        <h3 class="fs-5 my-2">Admin Dashboard</h3>
+                        <div class="row ">
+                            <div class="col-4">
+                                <div class="btn btn-secondary">
+                                    <a href="#" class=" text-decoration-none text-white ">Live Demo</a>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="btn btn-secondary">
+                                    <a href="" class=" text-decoration-none text-white ">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section  -->
+
+    <div class="contact mt-5 mx-5" id="conatct">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center fw-bold mb-4">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- left side  -->
+                <div class="col-md-5  d-flex justify-content-center">
+                    <div class=" contant-container">
+                        <div class="contact-item d-flex mb-3">
+                            <div class="icon text-danger fs-4">
+                                <i class="fa-solid fa-phone "></i>
+                            </div>
+                            <div class="text ms-3">
+                                <div class="fs-5">Phone</div>
+                                <div class="text-muted">09449251071</div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex mb-3">
+                            <div class="icon text-danger fs-4">
+                                <i class="fa-solid fa-envelope "></i>
+                            </div>
+                            <div class="text ms-3">
+                                <div class="fs-5">Email</div>
+                                <div class="text-muted">yairthura777@gmail.com</div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex mb-3">
+                            <div class="icon text-danger fs-4">
+                                <i class="fa-solid fa-address-book "></i>
+                            </div>
+                            <div class="text ms-3">
+                                <div class="fs-5">Address</div>
+                                <div class="text-muted">Hpa-an</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- left side end  -->
+                <!-- right side   -->
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="row mb-4">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" name="" id="" placeholder="Your Name"
+                                        class="form-control form-control-lg fs-6 border-0" />
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="email" name="" id="" placeholder="Your Email"
+                                        class="form-control form-control-lg fs-6 border-0" />
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-lg-12">
+                                    <input type="text" name="" id="" placeholder="Subject"
+                                        class="form-control form-control-lg fs-6 border-0" />
+
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-lg-12">
+
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"
+                                        class="form-control form-control-lg fs-6 border-0"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-lg-12">
+                                    <button class="btn btn-danger p-3">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- right side end  -->
+            </div>
+        </div>
+        <!-- contact section end  -->
+
+        <!-- footer start  -->
+        <div class="footer border-top py-4">
+            <div class="container-lg ">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class=" m-0 text-center text-danger text-muted"> We learn , We share, We Code | this is
+                            laboratory is for all coders </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end  -->
+
+    <!--javascript-->
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
